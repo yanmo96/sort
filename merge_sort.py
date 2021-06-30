@@ -23,7 +23,7 @@ def merge_sort(listN):
     right = listN[middle:]
     print("left: ", left)
     print("right:", right)
-    print
+    print()
     
     left = merge_sort(left)
     right = merge_sort(right)
